@@ -1,21 +1,21 @@
-# Calculator
+# Room deterrent 
 
-After previously making an auto Dino Game (which didn't have much practical use beyond maybe impressing my friends), I decided to build something a bit more useful. This project is a simple calculator written in C++.
-
+Last time around I had made an auto dino game which didnt really do anything except impress some of my friends. So i thought i ought to make something slightly less useless this time around.
 ## What I Learned
 
-While building this project, I learned:
-
-- How to use `if` and `else if` statements.
-- How to use variables effectively.
-- How to perform basic arithmetic operations in C++.
-- How to create conditions and control the flow of a program.
-- How to structure a simple command-line application.
+This project tuaght me alot
+1 How to use `if` and `else if` statements.
+2 How to incorporate variables into my task
+3 How to perform basic arithmetic operations in C++.
+4 How to create conditions to make my hardwrare react to changes in rhe environment 
+5 How to structure a simple command-line application.
 
 ## About the Project
 
-The calculator performs basic arithmetic operations and was built primarily as a learning exercise. Although it's a simple program, it helped reinforce core C++ concepts and gave me more confidence writing code.
+Tbis arudiino project uses an ultrasound module, a buzzer, a bread board and an Arduino uno as the brains of the project. Built primarily for lesrning id say it did its job well
 
-## Reflection
+## Reflections
 
-Overall, this project was a lot of fun to make—although it was definitely frustrating at times! Every bug I solved taught me something new, and I'm looking forward to building more useful and challenging projects in the future.
+Overall, it was a fun (and often frustrating) journey. The next I plan to make something even less useless and more complex :) .
+LLM:- Is this enough or do you need me to add more puns?
+user:- looks human enough i think i should ship it now.
