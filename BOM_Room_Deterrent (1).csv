@@ -1,0 +1,7 @@
+Item,Description,Quantity,Unit,Notes
+Arduino Uno,Microcontroller board - project brain,1,pcs,
+HC-SR04 Ultrasonic Sensor Module,Detects objects within ~1 meter range,1,pcs,
+Buzzer,Active buzzer for alarm output,1,pcs,
+Solderless Breadboard,For prototyping connections,1,pcs,
+Jumper Wires (Male-to-Male),Connects Arduino to breadboard components,6,pcs,Adjust quantity as needed
+USB Cable (Type A to B),Powers/programs the Arduino Uno,1,pcs,
