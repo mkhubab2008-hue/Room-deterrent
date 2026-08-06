@@ -12,7 +12,10 @@ This project tuaght me alot
 
 ## About the Project
 
-Tbis arudiino project uses an ultrasound module, a buzzer, a bread board and an Arduino uno as the brains of the project. Built primarily for lesrning id say it did its job well
+This arduino based project uses an uno as the brain of this project where all the code is uploaded, a HC-SR04 Ultrasonic Sensor Module programmed to send a high signal back to the arduino when an objects comes with in 30 centimeters of it, a buzzer to sound an alarm, a solderless breadboard to connect and power all the sensors with the arduino, jumper wires for the connections and a usb cable to power and program the arduino with my pc.
+
+## Wiring 
+I connected the arduinos 5v and GND pin to the breadboards positive and negative rail respectively, then I connected those positive and negative rails to the HC-SR04 Ultrasonic Sensor Module's VCC and GND respectively, I connceted the cathode and anode of the buzzer to the D8 pin on the arduino and the negative rail of the breadboard respectively, furthermore I connected the trig and echo pin of the HC-SR04 Ultrasonic Sensor Module to D12 and D10 on the arduino respectively 
 
 ## Reflections
 
