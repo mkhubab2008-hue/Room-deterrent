@@ -1,7 +1,7 @@
-Item,Description,Quantity,Unit,
-Arduino Uno,Microcontroller board - project brain,1,pcs,
-HC-SR04 Ultrasonic Sensor Module,Detects objects within ~1 meter range,1,pcs,
-Buzzer,Active buzzer for alarm output,1,pcs,
-Solderless Breadboard,For connections,1,pcs,
-Jumper Wires (Male-to-Male),Connects Arduino to breadboard components,6,pcs,
-USB Cable (Type A to B),Powers/programs the Arduino Uno,1,pcs,
+Item,Description,Quantity,Unit,Link
+Arduino Uno,Microcontroller board - project brain,1,pcs,https://ampflick.com/product/arduino-uno-r3-16u2-dip-version-with-cable-price-in-pakistan/
+HC-SR04 Ultrasonic Sensor Module,Detects objects within ~1 meter range,1,pcs,https://www.majju.pk/product/ultrasonic-module-hc-sr04-distance-sensor-for-arduino/?srsltid=AfmBOoqNwHih_9GcfEGO9Bmoi_YQv5d0siO2RShX8TuLAjVcw6-QAJAq
+Buzzer,Active buzzer for alarm output,1,pcs,https://electrobes.com/product/5v-active-piezo-buzzer/
+Solderless Breadboard,For connections,1,pcs,https://ampflick.com/product/mb102-breadboard-830-points-solderless-prototyping-breadboard-high-quality-price-in-pakistan/
+Jumper Wires (Male-to-Male),Connects Arduino to breadboard components,6,pcs,https://digilog.pk/products/30cm-pin-to-pin-dupont-40-pin-arduino-jumper-wire?srsltid=AfmBOoqQBIviQCr7W7urZyqFa-yBv4J3eVyWYioLMEqRbi6D_XN4iLjD
+USB Cable (Type A to B),Powers/programs the Arduino Uno,1,pcs,https://digilog.pk/products/5-meter-usb-a-to-usb-b-cable-for-arduino-uno-and-arduino-mega?srsltid=AfmBOoruDTeGp7Y9vnAMUVYG30D2pUSOso7Ul4QPyOD3aHA-U5Wow0KI
