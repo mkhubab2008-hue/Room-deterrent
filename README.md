@@ -50,6 +50,13 @@ I connected the arduinos 5v and GND pin to the breadboards positive and negative
 ## Instructions 
 Step-by-step Hardware Setup1.Power Down the Microcontroller:Disconnect your Arduino Uno from your computer and remove any external power adapters. Wiring components while the board receives current can cause short circuits or component damage.2.Establish Breadboard Power Rails:Insert one jumper wire from the 5V pin on the Arduino into the positive rail of your breadboard. Then, run a second jumper wire from any GND pin on the Arduino into the negative ground rail of the breadboard. This creates your shared power and ground buses.3.Mount the Ultrasonic Sensor. 4.Wire Sensor Power and Ground:Connect a jumper wire from the VCC pin of the ultrasonic sensor to the red positive power rail on your breadboard. Connect a jumper wire from the GND pin of the sensor directly to the blue negative ground rail.5.Connect Sensor Signal Lines:Plug a jumper wire into the terminal row connected to the sensor's Trig pin and run it directly to Digital Pin 12 on your Arduino. Connect another jumper wire from the Echo pin row on your breadboard directly to Digital Pin 10 on your Arduino.6.Mount and Wire the active Buzzer:Insert the buzzer into two separate rows on your breadboard. Identify the long leg (anode, positive terminal) and short leg (cathode, negative terminal). Run a jumper wire from the positive leg to Digital Pin 8 on your Arduino. Connect the negative leg to the blue negative ground rail on your breadboard.7.Verify and Upload:Double-check all connections against your code pin definitions (Trig on Pin 12, Echo on Pin 10, Buzzer on Pin 8). Once verified, plug the USB cable back into your computer and upload your code to test the alarm threshold.
 
+## Troubleshooting
+
+Sensor reading 0 cm constantly: Check whether the Trig and Echo wires are swapped between Digital Pins 12 and 10.
+
+Buzzer stays quiet: Ensure the long anode pin connects to Digital Pin 8 and the short cathode pin links to the common ground rail.
+
+Intermittent resets: Verify that both the sensor's VCC and Arduino's 5V pin sit tightly on the same positive rail strip.
 
 ## Reflections
 This project tuaght me alot
