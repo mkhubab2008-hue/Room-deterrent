@@ -40,14 +40,14 @@ This project consists of:
 | Piezo Buzzer | Anode (+) | Arduino Uno | Digital Pin 8 (D8) | Buzzer signal line |
 | Piezo Buzzer | Cathode (-) | Breadboard | Negative Rail (-) | Buzzer ground |
 
-##Overview 
+## Overview 
 This arduino based project uses an uno as the brain of this project where all the code is uploaded, a HC-SR04 Ultrasonic Sensor Module programmed to send a high signal back to the arduino when an objects comes with in 30 centimeters of it, a buzzer to sound an alarm, a solderless breadboard to connect and power all the sensors with the arduino, jumper wires for the connections and a usb cable to power and program the arduino with my pc.
 
-##Wiring
+## Wiring
 I connected the arduinos 5v and GND pin to the breadboards positive and negative rail respectively, then I connected those positive and negative rails to the HC-SR04 Ultrasonic Sensor Module's VCC and GND respectively, I connceted the cathode and anode of the buzzer to the D8 pin on the arduino and the negative rail of the breadboard respectively, furthermore I connected the trig and echo pin of the HC-SR04 Ultrasonic Sensor Module to D12 and D10 on the arduino respectively
 <img width="1600" height="1444" alt="WhatsApp Image 2026-08-07 at 4 20 36 PM" src="https://github.com/user-attachments/assets/52c26a63-9eb8-45fc-a0d8-9e632eaf8348" />
 
-##Instructions 
+## Instructions 
 Step-by-step Hardware Setup1.Power Down the Microcontroller:Disconnect your Arduino Uno from your computer and remove any external power adapters. Wiring components while the board receives current can cause short circuits or component damage.2.Establish Breadboard Power Rails:Insert one jumper wire from the 5V pin on the Arduino into the positive rail of your breadboard. Then, run a second jumper wire from any GND pin on the Arduino into the negative ground rail of the breadboard. This creates your shared power and ground buses.3.Mount the Ultrasonic Sensor. 4.Wire Sensor Power and Ground:Connect a jumper wire from the VCC pin of the ultrasonic sensor to the red positive power rail on your breadboard. Connect a jumper wire from the GND pin of the sensor directly to the blue negative ground rail.5.Connect Sensor Signal Lines:Plug a jumper wire into the terminal row connected to the sensor's Trig pin and run it directly to Digital Pin 12 on your Arduino. Connect another jumper wire from the Echo pin row on your breadboard directly to Digital Pin 10 on your Arduino.6.Mount and Wire the active Buzzer:Insert the buzzer into two separate rows on your breadboard. Identify the long leg (anode, positive terminal) and short leg (cathode, negative terminal). Run a jumper wire from the positive leg to Digital Pin 8 on your Arduino. Connect the negative leg to the blue negative ground rail on your breadboard.7.Verify and Upload:Double-check all connections against your code pin definitions (Trig on Pin 12, Echo on Pin 10, Buzzer on Pin 8). Once verified, plug the USB cable back into your computer and upload your code to test the alarm threshold.
 
 
