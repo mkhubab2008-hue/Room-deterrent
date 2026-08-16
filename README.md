@@ -45,6 +45,8 @@ This arduino based project uses an uno as the brain of this project where all th
 
 ## Wiring
 I connected the arduinos 5v and GND pin to the breadboards positive and negative rail respectively, then I connected those positive and negative rails to the HC-SR04 Ultrasonic Sensor Module's VCC and GND respectively, I connceted the cathode and anode of the buzzer to the D8 pin on the arduino and the negative rail of the breadboard respectively, furthermore I connected the trig and echo pin of the HC-SR04 Ultrasonic Sensor Module to D12 and D10 on the arduino respectively
+<img width="1007" height="579" alt="WhatsApp Image 2026-08-16 at 9 31 41 PM" src="https://github.com/user-attachments/assets/e8c65cd1-d2ab-4f80-bf4d-008be63c24a1" />
+
 
 
 ## Instructions 
